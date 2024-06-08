@@ -1,0 +1,547 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1e1e, #333);
+    color: #d4d4d4;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+main {
+    padding: 40px;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h1.name {
+    color: #61dafb;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #61dafb;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #61dafb;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+}
+
+.card {
+    background-color: #282828;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d4d4d4;
+}
+
+.job, .degree, .project {
+    margin: 20px 0;
+}
+
+.job h3, .degree h2, .project h2 {
+    color: #61dafb;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.job p, .degree p, .project p {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #a4a4a4;
+}
+
+.job ul, .degree ul, .project ul {
+    list-style-type: disc;
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+.skills-list, .languages-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list li, .languages-list li {
+    background-color: #61dafb;
+    color: #282828;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.skills-list li:hover, .languages-list li:hover {
+    background-color: #21a1f1;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+   
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+    border-color: #21a1f1;
+}
+
+.contact-info {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d4d4d4;
+    text-align: center;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #61dafb;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1e1e, #333);
+    color: #d4d4d4;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+main {
+    padding: 40px;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #61dafb;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #61dafb;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+}
+
+.card {
+    background-color: #282828;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d4d4d4;
+}
+
+.project {
+    margin-top: 10px;
+}
+
+.project h3 {
+    color: #61dafb;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #a4a4a4;
+}
+
+.contact-info {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d4d4d4;
+    text-align: center;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #61dafb;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1e1e, #333);
+    color: #d4d4d4;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+main {
+    padding: 40px;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #61dafb;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #61dafb;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+}
+
+.card {
+    background-color: #282828;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d4d4d4;
+}
+
+.education-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-top: 10px;
+}
+
+.project h3 {
+    color: #61dafb;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #a4a4a4;
+}
+
+.contact-info {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d4d4d4;
+    text-align: center;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #61dafb;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1e1e, #333);
+    color: #d4d4d4;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+main {
+    padding: 40px;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #61dafb;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #61dafb;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+}
+
+.card {
+    background-color: #282828;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d4d4d4;
+}
+
+.project {
+    margin-top: 10px;
+}
+
+.project h3 {
+    color: #61dafb;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #a4a4a4;
+}
+
+.project-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.images {
+    margin-top: 20px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+.logo {
+    margin-bottom: 20px;
+    text-align: center; /* Align the logo to the center */
+}
+
+.logo-image {
+    width: 150px; /* Adjust the width of the logo */
+    margin-top: 20px; /* Add margin to the top */
+}
